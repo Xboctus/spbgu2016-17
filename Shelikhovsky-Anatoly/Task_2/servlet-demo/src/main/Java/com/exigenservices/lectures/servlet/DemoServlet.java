@@ -18,7 +18,7 @@ public class DemoServlet extends HttpServlet {
         PrintWriter writer = res.getWriter();
         Date date = new Date();
         writer.println("<html>");
-        writer.println("<head><title>My first page</title></head>");
+        writer.println("<head><title>Shel</title></head>");
         writer.println("<body>" + date.toString() + "</body>");
         writer.println("</html>");
         writer.close();
