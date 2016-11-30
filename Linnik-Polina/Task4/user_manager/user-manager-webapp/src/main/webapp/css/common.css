@@ -1,0 +1,14 @@
+body{
+    font-size: 12pt;
+    color: black;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+td {
+    width: 50%;
+    border: 1px solid black;
+    padding: 2px 4px 2px 4px;
+}
