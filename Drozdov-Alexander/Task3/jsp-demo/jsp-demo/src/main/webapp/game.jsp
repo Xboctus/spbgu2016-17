@@ -4,11 +4,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 
-
 <html>
-
-
-
     <style>
 
         #base {
@@ -18,15 +14,15 @@
         }
     </style>
     <head>
-    	<title>Task 3</title>
+    	<title>Third task</title>
     </head>
-    <body id=base bgcolor="#1FCECB">
+    <body id=base bgcolor="#F0F8FF">
 
 
 
         <h1>Guess the number from 1 to 100!</h1>
 
-        <form action="index.jsp" method="get">
+        <form action="game.jsp" method="get">
                     <p>Enter the number</p>
                     ${util:setVictory(true)}
                     ${util:setLose(true)}
@@ -45,19 +41,17 @@
                     if(first){%>
                      ${util:setVictory(false)}
                      ${util:setLose(true)}
-                     <c:set scope="session" var="sessionStarted" value="true"/>
                      <c:redirect url="/victory.jsp"/>
                      <%}
                      else {%>
                                  ${util:setVictory(true)}
                                  ${util:setLose(false)}
-                                 <c:set scope="session" var="sessionStarted" value="true"/>
                                  <c:redirect url="/lose.jsp"/>
                      <%}
                     out.println(first);
                     }
                     catch( Exception e ) {%>
-                               <p>Enter another value</p>
+                               <p>Please, enter suitable value</p>
                                <%}
                      }
                      %>
@@ -65,7 +59,7 @@
             </form>
 
         <p>
-           Alexander Drozdov
+           Made by Alexander Karachev
         </p>
     </body>
 </html>

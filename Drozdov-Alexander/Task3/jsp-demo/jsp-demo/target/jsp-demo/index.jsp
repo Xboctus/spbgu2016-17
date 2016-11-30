@@ -18,9 +18,9 @@
         }
     </style>
     <head>
-    	<title>Task 3</title>
+    	<title>Third task</title>
     </head>
-    <body id=base bgcolor="#1FCECB">
+    <body id=base bgcolor="#F0F8FF">
 
 
 
@@ -57,7 +57,7 @@
                     out.println(first);
                     }
                     catch( Exception e ) {%>
-                               <p>Enter another value</p>
+                               <p>Please, enter suitable value</p>
                                <%}
                      }
                      %>
@@ -65,7 +65,7 @@
             </form>
 
         <p>
-           Alexander Drozdov
+           Made by Alexander Karachev
         </p>
     </body>
 </html>

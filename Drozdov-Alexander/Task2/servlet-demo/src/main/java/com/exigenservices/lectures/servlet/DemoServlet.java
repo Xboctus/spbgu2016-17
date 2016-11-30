@@ -8,7 +8,7 @@ import java.io.PrintWriter;
 import java.util.Date;
 
 /**
- * Created by Дарья on 10.11.2016.
+ * Created by Alexander on 29.11.2016.
  */
 public class DemoServlet extends HttpServlet {
     @Override
