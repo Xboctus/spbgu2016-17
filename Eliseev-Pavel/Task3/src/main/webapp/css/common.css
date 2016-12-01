@@ -1,0 +1,10 @@
+body{
+    font-size: 12pt;
+    color: #602C1F
+;
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+}
