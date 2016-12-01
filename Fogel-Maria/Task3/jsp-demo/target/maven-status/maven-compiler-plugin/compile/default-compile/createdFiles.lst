@@ -1,0 +1,4 @@
+com\exigenservices\lectures\servlets\BookmarksServlet.class
+com\exigenservices\lectures\model\Bookmark.class
+com\exigenservices\lectures\tags\Result.class
+com\exigenservices\lectures\tags\Generate.class
