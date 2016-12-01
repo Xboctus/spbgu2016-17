@@ -16,18 +16,7 @@ public class mainServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        int count = Integer.parseInt(request.getParameter("count"));
-        int res = riddle();
-        String action = request.getParameter("action");
 
-
-        if (ACTION.equals(action)) {
-            if (count == res) {
-                redirectWin(request, response);
-            } else {
-                redirectLose(request, response);
-            }
-        }
     }
 
     @Override

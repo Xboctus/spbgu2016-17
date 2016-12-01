@@ -1,0 +1,79 @@
+<project
+        xmlns="http://maven.apache.org/POM/4.0.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.devcrocod.task4-symbols</groupId>
+    <artifactId>symbols</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>symbols</name>
+    <modules>
+        <module>symbols-ejb</module>
+        <module>symbols-ejb-api</module>
+        <module>symbols-webapp-module</module>
+        <module>symbols-webapp</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.devcrocod.task4-symbols</groupId>
+                <artifactId>symbols-webapp</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <type>war</type>
+            </dependency>
+
+            <dependency>
+                <groupId>com.devcrocod.task4-symbols</groupId>
+                <artifactId>symbols-ejb</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <type>ejb</type>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <profiles>
+        <profile>
+            <id>glassfish-context</id>
+            <properties>
+                <!--<local.glassfish.home>D:\\servers\\glassfish4\\glassfish4\\glassfish</local.glassfish.home>-->
+                <local.glassfish.home>C:\\Program Files\glassfish-4.1.1\glassfish</local.glassfish.home>
+                <local.glassfish.user>admin</local.glassfish.user>
+                <local.glassfish.domain>domain1</local.glassfish.domain>
+                <local.glassfish.passfile>
+                    ${local.glassfish.home}\\domains\\${local.glassfish.domain}\\config\\domain-passwords
+                </local.glassfish.passfile>
+            </properties>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.glassfish.maven.plugin</groupId>
+                        <artifactId>maven-glassfish-plugin</artifactId>
+                        <version>2.1</version>
+                        <configuration>
+                            <glassfishDirectory>${local.glassfish.home}</glassfishDirectory>
+                            <user>admin</user>
+                            <passwordFile>${local.glassfish.passfile}</passwordFile>
+                            <domain>
+                                <name>domain1</name>
+                                <adminPort>4848</adminPort>
+                                <httpPort>8080</httpPort>
+                                <httpsPort>8181</httpsPort>
+                            </domain>
+                            <components>
+                                <component>
+                                    <name>${project.artifactId}</name>
+                                    <artifact>target/${project.build.finalName}.ear</artifact>
+                                </component>
+                            </components>
+                            <debug>true</debug>
+                            <terse>false</terse>
+                            <echo>true</echo>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+</project>
