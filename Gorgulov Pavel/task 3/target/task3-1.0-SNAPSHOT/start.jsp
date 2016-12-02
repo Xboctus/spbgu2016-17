@@ -13,7 +13,7 @@
     <h3 align="center">
         I put forth a number from 1 to 100. Your task is to guess it.
     </h3>
-    <form name="count" action="" method="POST" align="center">
+    <form name="count" action="/mainServlet" method="POST" align="center">
         <input type="text" name="count" value="" size="30">
         <br>
         <input type="hidden" name="action" value="start">

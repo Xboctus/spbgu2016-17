@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/symbols.iml" filepath="$PROJECT_DIR$/symbols.iml" />
+      <module fileurl="file://$PROJECT_DIR$/symbols-ear/symbols-ear.iml" filepath="$PROJECT_DIR$/symbols-ear/symbols-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/symbols-ejb/symbols-ejb.iml" filepath="$PROJECT_DIR$/symbols-ejb/symbols-ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/symbols-ejb-api/symbols-ejb-api.iml" filepath="$PROJECT_DIR$/symbols-ejb-api/symbols-ejb-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/symbols-webapp/symbols-webapp.iml" filepath="$PROJECT_DIR$/symbols-webapp/symbols-webapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/symbols-webapp-module/symbols-webapp-module.iml" filepath="$PROJECT_DIR$/symbols-webapp-module/symbols-webapp-module.iml" />
+    </modules>
+  </component>
+</project>

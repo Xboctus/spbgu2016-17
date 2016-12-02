@@ -1,5 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="/WEB-INF/tags.tld" prefix="tag" %>
 
 <html>
     <head>
@@ -15,11 +16,14 @@
         </div>
 
         <div>
-            <form action="/RULETKA/RuletkaServlet/" method="POST">
-                <p><input type="text" name="number"></p>
+            <form action="start.jsp">
+                <p><input type="text" name="number" autocomplete="off"></p>
                 <p><input type="submit" name="Try" value="Try"></p>
-                <input type="hidden" name="action" value="add">
             </form>
+            <% if (request.getParameter("number")!=null) {
+                request.getSession().setAttribute("number", request.getParameter("number")); %>
+                <tag:RuletkaTag/>
+             <% } %>
         </div>
         <c:if test="${not empty requestScope.error}">
             <div style="color:yellow;" class="error">

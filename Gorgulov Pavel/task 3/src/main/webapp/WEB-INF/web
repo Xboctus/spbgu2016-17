@@ -8,7 +8,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>task3</servlet-name>
-        <url-pattern>/</url-pattern>
+        <url-pattern>/mainServlet</url-pattern>
     </servlet-mapping>
 
     <session-config>
