@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="beans-webapp:war">
+    <output-path>$PROJECT_DIR$/beans-webapp/target</output-path>
+    <root id="archive" name="beans-webapp.war">
+      <element id="artifact" artifact-name="beans-webapp:war exploded" />
+    </root>
+  </artifact>
+</component>
