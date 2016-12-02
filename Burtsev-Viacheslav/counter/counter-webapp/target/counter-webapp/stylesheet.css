@@ -1,0 +1,15 @@
+body {
+	text-align: center;
+}
+
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+td {
+	width: 50%;
+	border: 1px solid black;
+	padding: 2px 4px 2px 4px;
+}
