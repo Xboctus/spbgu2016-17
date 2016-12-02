@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/beans.iml" filepath="$PROJECT_DIR$/beans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beans-ear/beans-ear.iml" filepath="$PROJECT_DIR$/beans-ear/beans-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beans-ejb/beans-ejb.iml" filepath="$PROJECT_DIR$/beans-ejb/beans-ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beans-ejb-api/beans-ejb-api.iml" filepath="$PROJECT_DIR$/beans-ejb-api/beans-ejb-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beans-webapp/beans-webapp.iml" filepath="$PROJECT_DIR$/beans-webapp/beans-webapp.iml" />
+    </modules>
+  </component>
+</project>
