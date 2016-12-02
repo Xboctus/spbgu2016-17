@@ -13,15 +13,14 @@ public class Consumer implements MessageListener {
 
     @Override
     public void onMessage(Message message) {
-        TextMessage textMessage = (TextMessage) message;
         try {
-            putToStorage(textMessage.getText());
+            putToStorage(((TextMessage) message).getText());
         } catch (JMSException ex) {
             putToStorage(ex.toString());
         }
     }
     
     protected void putToStorage(String message) {
-        InMemoryStorage.add(getClass().getName() + " - " + message);
+        InMemoryStorage.add(getClass().getName() + " > " + message);
     }
 }
