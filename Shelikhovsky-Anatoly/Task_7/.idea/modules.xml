@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Communication.iml" filepath="$PROJECT_DIR$/Communication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-manager-ear/user-manager-ear.iml" filepath="$PROJECT_DIR$/user-manager-ear/user-manager-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-manager-ejb/user-manager-ejb.iml" filepath="$PROJECT_DIR$/user-manager-ejb/user-manager-ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-manager-webapp/user-manager-webapp.iml" filepath="$PROJECT_DIR$/user-manager-webapp/user-manager-webapp.iml" />
+    </modules>
+  </component>
+</project>
