@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="symbols-webapp:war exploded">
+    <output-path>$PROJECT_DIR$/symbols-webapp/target/symbols-webapp</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="symbols-webapp" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.ejb:javax.ejb-api:3.2" />
+          <element id="library" level="project" name="Maven: javax.transaction:javax.transaction-api:1.2" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.1" />
+          <element id="archive" name="symbols-webapp-module-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="symbols-webapp-module" />
+          </element>
+          <element id="archive" name="symbols-ejb-api-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="symbols-ejb-api" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/symbols-webapp/target/symbols-webapp/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="symbols-webapp/web/Web" />
+    </root>
+  </artifact>
+</component>
