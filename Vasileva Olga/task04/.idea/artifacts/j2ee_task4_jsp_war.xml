@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="j2ee-task4-jsp:war">
+    <output-path>$PROJECT_DIR$/jsp/target</output-path>
+    <root id="archive" name="hw004-jsp.war">
+      <element id="artifact" artifact-name="j2ee-task4-jsp:war exploded" />
+    </root>
+  </artifact>
+</component>

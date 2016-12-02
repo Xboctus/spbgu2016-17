@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="hw004-ejb:ejb">
+    <output-path>$PROJECT_DIR$/hw004-ejb/target</output-path>
+    <root id="archive" name="hw004-ejb-1.0-SNAPSHOT.jar">
+      <element id="artifact" artifact-name="hw004-ejb:ejb exploded" />
+    </root>
+  </artifact>
+</component>
