@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Task4.iml" filepath="$PROJECT_DIR$/Task4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ear/hw004-ear.iml" filepath="$PROJECT_DIR$/ear/hw004-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejb/hw004-ejb.iml" filepath="$PROJECT_DIR$/ejb/hw004-ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jsp/hw004-jsp.iml" filepath="$PROJECT_DIR$/jsp/hw004-jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejb/j2ee-task4-ejb.iml" filepath="$PROJECT_DIR$/ejb/j2ee-task4-ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jsp/j2ee-task4-jsp.iml" filepath="$PROJECT_DIR$/jsp/j2ee-task4-jsp.iml" />
+    </modules>
+  </component>
+</project>

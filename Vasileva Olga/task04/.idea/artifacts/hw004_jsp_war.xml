@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hw004-jsp:war">
+    <output-path>$PROJECT_DIR$/hw004-jsp/target</output-path>
+    <root id="archive" name="hw004-jsp.war">
+      <element id="artifact" artifact-name="hw004-jsp:war exploded" />
+    </root>
+  </artifact>
+</component>

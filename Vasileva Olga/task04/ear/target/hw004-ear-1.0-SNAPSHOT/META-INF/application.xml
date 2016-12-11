@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_6.xsd" version="6">
+  <display-name>hw004-ear</display-name>
+  <module>
+    <ejb>hw004-ejb-1.0-SNAPSHOT.jar</ejb>
+  </module>
+  <module>
+    <web>
+      <web-uri>hw004-jsp-1.0-SNAPSHOT.war</web-uri>
+      <context-root>/hw004-jsp</context-root>
+    </web>
+  </module>
+  <library-directory>lib</library-directory>
+</application>
