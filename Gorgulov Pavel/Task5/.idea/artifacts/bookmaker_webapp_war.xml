@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="bookmaker-webapp:war">
+    <output-path>$PROJECT_DIR$/bookmaker-webapp/target</output-path>
+    <root id="archive" name="bookmaker-webapp.war">
+      <element id="artifact" artifact-name="bookmaker-webapp:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="bookmaker-ejb:ejb">
+    <output-path>$PROJECT_DIR$/bookmaker-ejb/target</output-path>
+    <root id="archive" name="bookmaker-ejb-1.0-SNAPSHOT.jar">
+      <element id="artifact" artifact-name="bookmaker-ejb:ejb exploded" />
+    </root>
+  </artifact>
+</component>
